@@ -1,4 +1,4 @@
-package xyz.dowenliu.juc;
+package xyz.dowenliu.juc.counter;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

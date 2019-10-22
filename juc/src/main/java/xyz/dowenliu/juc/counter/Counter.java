@@ -1,4 +1,4 @@
-package xyz.dowenliu.juc;
+package xyz.dowenliu.juc.counter;
 
 /**
  * 计数器接口。实现类需要保证线程安全

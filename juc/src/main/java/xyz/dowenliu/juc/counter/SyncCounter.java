@@ -1,4 +1,4 @@
-package xyz.dowenliu.juc;
+package xyz.dowenliu.juc.counter;
 
 /**
  * 使用 synchronized 实现的线程安全 {@link Counter}。
