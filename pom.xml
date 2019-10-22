@@ -23,8 +23,17 @@
 
     <modules>
         <module>i-get-int</module>
+        <module>juc</module>
     </modules>
 
     <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.jetbrains.kotlin</groupId>
+                <artifactId>kotlin-test-junit</artifactId>
+                <version>${kotlin.version}</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
     </dependencyManagement>
 </project>
