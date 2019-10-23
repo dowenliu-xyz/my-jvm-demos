@@ -77,5 +77,7 @@ class Account {
     对账户排序，按序加锁。破坏"循环等待"条件
 ### 2.3 简单的阻塞队列[BlockedQueue](./juc/src/main/java/xyz/dowenliu/juc/condition/BlockedQueue.java) :
 展示 条件变量 `Condition` 的用法
+### 2.4 Semaphore demo
+#### 2.4.1 使用信号量实现的线程安全计数器：[SemaphoreCounter](./juc/src/main/java/xyz/dowenliu/juc/semaphore/SemaphoreCounter.java)
 
 ... TBD

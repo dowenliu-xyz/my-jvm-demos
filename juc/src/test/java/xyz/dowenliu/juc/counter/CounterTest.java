@@ -1,4 +1,4 @@
-package xyz.dowenliu.juc;
+package xyz.dowenliu.juc.counter;
 
 import org.junit.Test;
 
@@ -28,7 +28,7 @@ public class CounterTest {
         return (long) (new Random(System.currentTimeMillis()).nextDouble() * 10000L);
     }
 
-    private static void testCounter(final Counter counter) throws InterruptedException {
+    public static void testCounter(final Counter counter) throws InterruptedException {
         if (counter == null) {
             throw new NullPointerException("Counter is null!");
         }
