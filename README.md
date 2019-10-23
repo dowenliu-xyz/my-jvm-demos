@@ -75,5 +75,7 @@ class Account {
     如果无法获取所有资源的锁则放弃已获得的锁，但有可能导致活锁。
   * 方案2.3(推荐方案)：[OrderedAccount](./juc/src/main/java/xyz/dowenliu/juc/transfer/OrderedAccount.java)
     对账户排序，按序加锁。破坏"循环等待"条件
+### 2.3 简单的阻塞队列[BlockedQueue](./juc/src/main/java/xyz/dowenliu/juc/condition/BlockedQueue.java) :
+展示 条件变量 `Condition` 的用法
 
 ... TBD
