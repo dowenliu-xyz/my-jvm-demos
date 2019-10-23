@@ -79,5 +79,6 @@ class Account {
 展示 条件变量 `Condition` 的用法
 ### 2.4 Semaphore demo
 #### 2.4.1 使用信号量实现的线程安全计数器：[SemaphoreCounter](./juc/src/main/java/xyz/dowenliu/juc/semaphore/SemaphoreCounter.java)
+#### 2.4.2 对象池: [Pool]()
 
 ... TBD

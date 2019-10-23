@@ -8,7 +8,6 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <artifactId>i-get-int</artifactId>
-    <version>${project.version}</version>
     <name>i-get-int</name>
 
     <dependencies>
