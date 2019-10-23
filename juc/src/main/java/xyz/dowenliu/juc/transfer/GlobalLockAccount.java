@@ -9,23 +9,20 @@ import java.util.Random;
  *
  * @author liufl
  */
-public class LowPerformanceAccount {
-    private int balance;
+public class GlobalLockAccount {
+    private int balance; // 余额
 
-    public int getBalance() {
-        return balance;
-    }
-
-    public void setBalance(int balance) {
+    public GlobalLockAccount(int balance) {
         this.balance = balance;
     }
 
-    void transfer(LowPerformanceAccount target, int amount) {
-        synchronized (LowPerformanceAccount.class) { // 不能使用 this 加锁，因为无法保护 target
-            if (this.balance > amount) {
+    // 转账
+    void transfer(GlobalLockAccount target, int amount) {
+        synchronized (GlobalLockAccount.class) { // 不能使用 this 加锁，因为无法保护 target
+            if (amount > 0 && this.balance >= amount) {
                 this.balance -= amount;
                 try {
-                    Thread.sleep(new Random().nextInt(100));
+                    Thread.sleep(new Random().nextInt(200)); // 模拟转账延迟
                 } catch (InterruptedException ignored) {
                 }
                 target.balance += amount;
