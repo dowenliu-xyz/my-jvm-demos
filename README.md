@@ -83,4 +83,8 @@ class Account {
 ### 2.5 读写锁：实现RAM缓存
 #### 2.5.1 简单的 [Cache](./juc/src/main/java/xyz/dowenliu/juc/cache/Cache.java)
 
+# 3. Java 核心技术示例
+## 3.1 内部类示例1 [InnerClassTest1](./java-core/src/main/java/xyz/dowenliu/core/innerClass/InnerClassTest1.java)
+展示 `outerObject.new InnerClass(construction_parameters)`的语法。
+
 ... TBD
