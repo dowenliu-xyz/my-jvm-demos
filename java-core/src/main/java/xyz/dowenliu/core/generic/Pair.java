@@ -1,5 +1,7 @@
 package xyz.dowenliu.core.generic;
 
+import java.util.function.Supplier;
+
 /**
  * <p>create at 2019/11/4</p>
  *
@@ -33,5 +35,22 @@ public class Pair<T> {
 
     public void setSecond(T second) {
         this.second = second;
+    }
+
+    @Override
+    public String toString() {
+        return "(" + first + ", " + second + ")";
+    }
+
+    public static <T> Pair<T> makePair(Supplier<T> constr) {
+        return new Pair<>(constr.get(), constr.get());
+    }
+
+    public static <T> Pair<T> makePair(Class<T> cl) {
+        try {
+            return new Pair<>(cl.newInstance(), cl.newInstance());
+        } catch (Exception ex) {
+            return null; // 处理的粗暴了些
+        }
     }
 }

@@ -89,5 +89,6 @@ class Account {
 ## 3.2 Proxy示例 [ProxyTest](./java-core/src/main/java/xyz/dowenliu/core/proxy/ProxyTest.java)
 ## 3.3 泛型示例
 * 通配符示例 [Test](./java-core/src/main/java/xyz/dowenliu/core/generic/Test.java)
+* 泛型 构造器表达式示例 [GenericAlgorithms](./java-core/src/main/java/xyz/dowenliu/core/generic/GenericAlgorithms.java)
 
 ... TBD
