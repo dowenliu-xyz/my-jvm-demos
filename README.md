@@ -87,5 +87,7 @@ class Account {
 ## 3.1 内部类示例1 [InnerClassTest1](./java-core/src/main/java/xyz/dowenliu/core/innerClass/InnerClassTest1.java)
 展示 `outerObject.new InnerClass(construction_parameters)`的语法。
 ## 3.2 Proxy示例 [ProxyTest](./java-core/src/main/java/xyz/dowenliu/core/proxy/ProxyTest.java)
+## 3.3 泛型示例
+* 通配符示例 [Test](./java-core/src/main/java/xyz/dowenliu/core/generic/Test.java)
 
 ... TBD
