@@ -9,6 +9,7 @@ import java.util.Random;
 /**
  * <p>create at 2019/11/1</p>
  *
+ * @author Cay Horstmann
  * @author liufl
  */
 public class ProxyTest {

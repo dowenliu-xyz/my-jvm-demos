@@ -7,6 +7,7 @@ import java.util.function.IntFunction;
 /**
  * <p>create at 2019/11/4</p>
  *
+ * @author Cay Horstmann
  * @author liufl
  */
 public class GenericAlgorithms {

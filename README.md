@@ -91,4 +91,7 @@ class Account {
 * 通配符示例 [Test](./java-core/src/main/java/xyz/dowenliu/core/generic/Test.java)
 * 泛型 构造器表达式示例 [GenericAlgorithms](./java-core/src/main/java/xyz/dowenliu/core/generic/GenericAlgorithms.java)
 * 泛型反射示例 [GenericReflectionTest](./java-core/src/main/java/xyz/dowenliu/core/generic/GenericReflectionTest.java)
+## 3.4 集合
+* BitSet 示例 [Sieve](./java-core/src/main/java/xyz/dowenliu/core/collection/Sieve.java)
+
 ... TBD
