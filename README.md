@@ -84,6 +84,8 @@ class Account {
 #### 2.5.1 简单的 [Cache](./juc/src/main/java/xyz/dowenliu/juc/cache/Cache.java)
 
 # 3. Java 核心技术示例
+这部分示例大部分来自《Java核心技术》的示例代码。
+## 3.1 除0结果 [DivedByZero](./java-core/src/main/java/xyz/dowenliu/core/primitive/DivedByZero.java)
 ## 3.1 内部类示例1 [InnerClassTest1](./java-core/src/main/java/xyz/dowenliu/core/innerClass/InnerClassTest1.java)
 展示 `outerObject.new InnerClass(construction_parameters)`的语法。
 ## 3.2 Proxy示例 [ProxyTest](./java-core/src/main/java/xyz/dowenliu/core/proxy/ProxyTest.java)
