@@ -11,5 +11,16 @@
 
     <artifactId>java-core</artifactId>
 
-
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.1.1</version>
+                <!-- run by command:
+                 mvn javadoc:javadoc -pl java-core -am
+                 -->
+            </plugin>
+        </plugins>
+    </build>
 </project>

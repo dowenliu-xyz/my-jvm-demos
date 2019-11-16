@@ -85,16 +85,17 @@ class Account {
 
 # 3. Java 核心技术示例
 这部分示例大部分来自《Java核心技术》的示例代码。
-## 3.1 除0结果 [DivedByZero](./java-core/src/main/java/xyz/dowenliu/core/primitive/DivedByZero.java)
-## 3.2 显示提供this [ThisArgument](./java-core/src/main/java/xyz/dowenliu/core/method/ThisArgument.java)
-## 3.3 内部类示例1 [InnerClassTest1](./java-core/src/main/java/xyz/dowenliu/core/innerClass/InnerClassTest1.java)
+## 3.1 JavaDoc 资源示例 [JavaDocResources]()
+## 3.2 除0结果 [DivedByZero](./java-core/src/main/java/xyz/dowenliu/core/primitive/DivedByZero.java)
+## 3.3 显示提供this [ThisArgument](./java-core/src/main/java/xyz/dowenliu/core/method/ThisArgument.java)
+## 3.4 内部类示例1 [InnerClassTest1](./java-core/src/main/java/xyz/dowenliu/core/innerClass/InnerClassTest1.java)
 展示 `outerObject.new InnerClass(construction_parameters)`的语法。
-## 3.4 Proxy示例 [ProxyTest](./java-core/src/main/java/xyz/dowenliu/core/proxy/ProxyTest.java)
-## 3.5 泛型示例
+## 3.5 Proxy示例 [ProxyTest](./java-core/src/main/java/xyz/dowenliu/core/proxy/ProxyTest.java)
+## 3.6 泛型示例
 * 通配符示例 [Test](./java-core/src/main/java/xyz/dowenliu/core/generic/Test.java)
 * 泛型 构造器表达式示例 [GenericAlgorithms](./java-core/src/main/java/xyz/dowenliu/core/generic/GenericAlgorithms.java)
 * 泛型反射示例 [GenericReflectionTest](./java-core/src/main/java/xyz/dowenliu/core/generic/GenericReflectionTest.java)
-## 3.6 集合
+## 3.7 集合
 * BitSet 示例 [Sieve](./java-core/src/main/java/xyz/dowenliu/core/collection/Sieve.java)
 
 ... TBD
