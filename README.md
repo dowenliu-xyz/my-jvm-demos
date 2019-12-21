@@ -82,6 +82,8 @@ class Account {
 #### 2.4.2 对象池: [Pool](./juc/src/main/java/xyz/dowenliu/juc/semaphore/Pool.java)
 ### 2.5 读写锁：实现RAM缓存
 #### 2.5.1 简单的 [Cache](./juc/src/main/java/xyz/dowenliu/juc/cache/Cache.java)
+### 2.6 对 BLOCKED 的线程进行 interrupt() [InterruptDemo](./juc/src/main/java/xyz/dowenliu/juc/interrupt/InterruptDemo.java)
+使用代码测试 interrupt() 对 BLOCKED 状态的线程的作用。证明结果，进行了中断标记，没有抛出异常
 
 # 3. Java 核心技术示例
 这部分示例大部分来自《Java核心技术》的示例代码。
