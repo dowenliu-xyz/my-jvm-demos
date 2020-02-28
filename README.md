@@ -88,6 +88,9 @@ class Account {
 #### 2.7.1 使用Unsafe类实现不带超时、不可中断、不可重入的非公平独占锁
 [SimpleLock](./juc/src/main/java/xyz/dowenliu/concurrent/SimpleLock.java)  
 测试 [SimpleLockDemo](./juc/src/main/java/xyz/dowenliu/concurrent/SimpleLockDemo.java)
+#### 2.7.2 使用AQS实现不带超时、不可中断、不可重入的非公平独占锁
+[SimpleAQSLock](./juc/src/main/java/xyz/dowenliu/juc/lock/SimpleAQSLock.java)  
+测试 [SimpleAQSLockDemo](./juc/src/main/java/xyz/dowenliu/juc/lock/SimpleAQSLockDemo.java)
 
 # 3. Java 核心技术示例
 这部分示例大部分来自《Java核心技术》的示例代码。
