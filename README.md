@@ -84,6 +84,10 @@ class Account {
 #### 2.5.1 简单的 [Cache](./juc/src/main/java/xyz/dowenliu/juc/cache/Cache.java)
 ### 2.6 对 BLOCKED 的线程进行 interrupt() [InterruptDemo](./juc/src/main/java/xyz/dowenliu/juc/interrupt/InterruptDemo.java)
 使用代码测试 interrupt() 对 BLOCKED 状态的线程的作用。证明结果，进行了中断标记，没有抛出异常
+### 2.7 实现锁
+#### 2.7.1 使用Unsafe类实现不带超时、不可中断、不可重入的非公平独占锁
+[SimpleLock](./juc/src/main/java/xyz/dowenliu/concurrent/SimpleLock.java)  
+测试 [SimpleLockDemo](./juc/src/main/java/xyz/dowenliu/concurrent/SimpleLockDemo.java)
 
 # 3. Java 核心技术示例
 这部分示例大部分来自《Java核心技术》的示例代码。
