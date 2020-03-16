@@ -25,6 +25,7 @@
         <module>i-get-int</module>
         <module>juc</module>
         <module>java-core</module>
+        <module>performance-tuning</module>
     </modules>
 
     <dependencyManagement>

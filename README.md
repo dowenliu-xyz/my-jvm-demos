@@ -107,4 +107,10 @@ class Account {
 ## 3.7 集合
 * BitSet 示例 [Sieve](./java-core/src/main/java/xyz/dowenliu/core/collection/Sieve.java)
 
+# 4 性能编码
+## 4.1 使用自定义异常时避免生成栈追踪信息
+不构建 StackTrace 信息，不消耗系统性能。如果异常只是供业务使用，可以选择不构建异常以提高性能。
+
+性能对比测试：[RuntimeExceptionWithoutStackTraceBenchmark](./performance-tuning/src/test/java/xyz/dowenliu/performance/tuning/exception/RuntimeExceptionWithoutStackTraceBenchmark.java)
+
 ... TBD
