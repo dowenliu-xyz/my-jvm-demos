@@ -112,5 +112,9 @@ class Account {
 不构建 StackTrace 信息，不消耗系统性能。如果异常只是供业务使用，可以选择不构建异常以提高性能。
 
 性能对比测试：[RuntimeExceptionWithoutStackTraceBenchmark](./performance-tuning/src/test/java/xyz/dowenliu/performance/tuning/exception/RuntimeExceptionWithoutStackTraceBenchmark.java)
+## 4.2 正则表达式 捕获分组 vs 非捕获分组
+减少非必要的捕获分组可以提高正则表达式的性能
+
+性能对比测试: [RegexNonCapturingGroupBenchmark](./performance-tuning/src/test/java/xyz/dowenliu/performance/tuning/exception/RegexNonCapturingGroupBenchmark.java)
 
 ... TBD
